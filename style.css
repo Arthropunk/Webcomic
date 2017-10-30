@@ -1,0 +1,35 @@
+body {
+  font-family: futura;
+  background-color: #000;
+  color: #FFF;
+  left-margin: 0; 
+  top-margin: 0; 
+  margin-height: 0;
+  margin-width: 0;
+}
+	
+h1 {
+  text-transform: uppercase; 
+  font-size: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+ }
+
+p {
+  font-size: 14px;
+  text-align: center;
+}
+
+table.comics {
+  width: 600px;
+  cellspacing: 0;
+  cellpadding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #FFF;
+  text-align: center;
+}
