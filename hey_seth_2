@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hey Seth, Part 2</title>
+	<link href="style.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<!-- Begin Webcomic Content -->
+
+<body><div class="navigation"><center>
+	<a href="http://www.arthropunk.com/about"><img src="https://imgur.com/wZvUHlX.png" border=0></a>
+	<a href="http://www.arthropunk.com/comics"><img src="https://imgur.com/IPBhFlZ.png" border=0></a>
+	<a href="http://www.arthropunk.com/podcast"><img src="https://imgur.com/AjmqTnJ.png" border=0></a>
+	<a href="http://www.arthropunk.com/follow"><img src="https://imgur.com/zvlTbo3.png" border=0></a>
+	<!-- <a href="http://www.arthropunk.com/contact"><img src="https://imgur.com/9DEaj9p.png" border=0></a> 
+	<a href="http://www.arthropunk.com/support"><img src="" border=0></a> -->
+</div>
+<center>
+<img src="t14.jpg" width="500" height="500"/><br />
+
+<a href="hey_seth_1.html">
+	<img src="prev.jpg" alt="previous" width="180px" height="48px"/>
+		</a>
+
+<a href="seth.html">
+	<img src="next.jpg" alt="next" width="135px" height="48px"/>
+		</a>
+
+	</center>
+
+	<footer text-align="center"><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img 
+
+alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" 
+
+/></a>"Arthropunk" and all related properties by Vernon Meidlinger-Chin are licensed under a <a rel="license" 
+
+href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 
+
+International License</a></footer>
+
+</body>
+</html>
