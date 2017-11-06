@@ -1,8 +1,9 @@
 h1 {
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
 	font-family: "georgia";
-	margin: 50px auto 10px auto; 
+	margin: 50px auto 2px auto;
+	text-transform: uppercase;
 }
 
 h2 {
@@ -49,10 +50,11 @@ a {color: black;}
 table {
 	font-size: 16px;
 	font-family: "georgia";
-	width: 600px;
+	width: 620px;
 	margin: 0 auto;
 }
 
-td {padding: 5px;}
-
-.img-up {vertical-algin: top;}
+td {
+	padding: 5px;
+	vertical-align: top;
+}
