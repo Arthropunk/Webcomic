@@ -2,7 +2,6 @@ h1 {
 	font-size: 18px;
 	text-align: center;
 	font-family: "georgia";
-	text-transform: uppercase;
 	margin: 50px auto 10px auto; 
 }
 
@@ -51,17 +50,9 @@ table {
 	font-size: 16px;
 	font-family: "georgia";
 	width: 600px;
-	margin: 50px auto 0 auto;
-}
-
-table.short-stories{
-	font-size: 16px;
-	font-family: "georgia";
-	width: 600px;
 	margin: 0 auto;
 }
 
-td {
-	padding: 5px;
-	vertical-algin: top;
-}
+td {padding: 5px;}
+
+.img-up {vertical-algin: top;}
