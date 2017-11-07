@@ -1,15 +1,21 @@
 h1 {
-	font-size: 16px;
+	font-size: 18px;
 	text-align: center;
 	font-family: "georgia";
-	margin: 50px auto 2px auto;
 	text-transform: uppercase;
+	margin: 50px auto 10px auto; 
 }
 
 h2 {
 	font-size: 18px;
 	text-align: left;
 	font-family: "georgia";
+}
+
+h3 {
+	font-size: 18px;
+	text-align: center;
+	font-family: 'georgia';
 }
 
 p {
@@ -50,11 +56,35 @@ a {color: black;}
 table {
 	font-size: 16px;
 	font-family: "georgia";
-	width: 620px;
+	width: 600px;
+	margin: 50px auto 0 auto;
+}
+
+table.short-stories{
+	font-size: 16px;
+	font-family: "georgia";
+	width: 600px;
 	margin: 0 auto;
 }
 
-td {
-	padding: 5px;
-	vertical-align: top;
+td {padding: 5px;}
+
+.nav{
+	text-align: right;
+	position: absolute;
+	left: 100px;
+	top: 550px;
+	font-family: 'georgia';
+	font-size: 16px;
+}
+
+.navigation {
+	border-top: 4px double black;
+	border-bottom: 4px double black;
+}
+
+.blog {
+	background-color: #D3D3D3;
+	margin: 0 auto;
+	width: 500px;
 }
