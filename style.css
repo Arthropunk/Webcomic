@@ -3,7 +3,7 @@ h1 {
 	text-align: center;
 	font-family: "georgia";
 	text-transform: uppercase;
-	margin: 50px auto 10px auto; 
+	margin: 50px auto 10px auto;
 }
 
 h2 {
@@ -38,7 +38,7 @@ footer {
 	border: 1px dotted black;
 	padding: 0px 0px;
 	font-family: "georgia";
-	width: 700px;	
+	width: 700px;
 }
 
 .img-circle {border-radius: 50%;}
@@ -46,8 +46,8 @@ footer {
 .img-circle:hover {border: 4px solid #FF3;}
 
 .header {
-	background:url(title.PNG) top center no-repeat; 
-	margin: 0 auto; 
+	background:url(title.PNG) top center no-repeat;
+	margin: 0 auto;
 	padding-top: 150px;
 }
 
@@ -66,12 +66,25 @@ td {
 }
 
 .nav{
-	text-align: right;
-	position: absolute;
-	left: 100px;
-	top: 550px;
 	font-family: 'georgia';
 	font-size: 16px;
+	text-align: center;
+}
+
+// do stuff here starting at 1200px
+// the styles defined above for .nav will be used up until here and even wider unless overwritten
+// new styles within the media query will only come into effect at 1200px wide (that is, width ≥ 1200)
+// you can also have a max-width query, see https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+// try dragging your window to figure out the correct values, I just guessed at 1200
+// you can do multiple media queries (that's what these are called).
+// min-width 600, min-width 800, min-width 1200, etc. to get granular about styling
+@media (min-width: 1200px) {
+	.nav {
+		text-align: right;
+		position: absolute;
+		left: 100px;
+		top: 550px;
+	}
 }
 
 .navigation {
