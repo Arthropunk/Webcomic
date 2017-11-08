@@ -71,13 +71,15 @@ td {
 	text-align: center;
 }
 
-// do stuff here starting at 1200px
-// the styles defined above for .nav will be used up until here and even wider unless overwritten
-// new styles within the media query will only come into effect at 1200px wide (that is, width ≥ 1200)
-// you can also have a max-width query, see https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
-// try dragging your window to figure out the correct values, I just guessed at 1200
-// you can do multiple media queries (that's what these are called).
-// min-width 600, min-width 800, min-width 1200, etc. to get granular about styling
+/*
+	do stuff here starting at 1200px
+	the styles defined above for .nav will be used up until here and even wider unless overwritten
+	new styles within the media query will only come into effect at 1200px wide (that is, width ≥ 1200)
+	you can also have a max-width query, see https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+	try dragging your window to figure out the correct values, I just guessed at 1200
+	you can do multiple media queries (that's what these are called):
+	min-width 600, min-width 800, min-width 1200, etc. to get granular about styling
+*/
 @media (min-width: 1200px) {
 	.nav {
 		text-align: right;
@@ -86,6 +88,7 @@ td {
 		top: 550px;
 	}
 }
+
 
 .navigation {
 	border-top: 4px double black;
