@@ -13,7 +13,7 @@ h2 {
 }
 
 h3 {
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
 	font-family: 'georgia';
 }
@@ -98,5 +98,14 @@ td {
 .blog {
 	background-color: #D3D3D3;
 	margin: 0 auto;
-	width: 500px;
+	width: 540px;
+	padding: 10px 0;
+}
+
+.nomargin {
+	margin: 0 auto;
+}
+
+.social-media {
+	margin: 30px;
 }
