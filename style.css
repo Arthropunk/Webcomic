@@ -33,9 +33,10 @@ p {
 
 footer {
 	text-align: center;
-	margin: 60px auto 0px auto;
-	border: 1px dotted black;
-	padding: 0px 0px;
+	margin: 50px auto 0px auto;
+	border-top: 4px double black;
+	border-bottom: 4px double black;
+	padding: 5px 10px;
 	font-family: "georgia";
 	width: 700px;
 }
